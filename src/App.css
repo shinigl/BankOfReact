@@ -1,0 +1,26 @@
+
+.div{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.div1{
+  width: 50%;
+}
+.pie{
+  width: 40%;
+}
+@media screen and (max-width:720px) {
+  .div{
+    
+   flex-direction: column;
+   align-items: center;
+
+  }
+  .div1{
+    width: 80%;
+  }
+  .pie{
+    width: 80%;
+  }
+}
